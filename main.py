@@ -7,7 +7,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 from classes import Block, Transaction
 from db import init_db, fill_database, find_certain_transactions
 
-URL = "http://127.0.0.1:8545"
+URL = "http://192.168.172.44:8545"
 BLOCK_OFFSET = 100
 NUMBER_OF_BLOCKS = 1000
 BATCH_LIMIT = 100
